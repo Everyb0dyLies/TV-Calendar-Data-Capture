@@ -7,8 +7,15 @@
 
 import scrapy
 
-
 class TvCalendarDataCaptureItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    zmz_id = scrapy.Field() 
+    title = scrapy.Field()
+    ch_name = scrapy.Field()
+    en_name = scrapy.Field()
+    lang = scrapy.Field()
+    version = scrapy.Field()
+    format = scrapy.Field()
+    source = scrapy.Field()
+    release_time = scrapy.Field()
+    file_name = scrapy.Field()
+    file_link = scrapy.Field()
